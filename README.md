@@ -1,9 +1,11 @@
 
-  # Multi-Page Portfolio Website
+  # Personal Portfolio Website
 
-  This is a code bundle for Multi-Page Portfolio Website. The original project is available at https://www.figma.com/design/528HNWL3rQ1eW8hv6cXkt0/Multi-Page-Portfolio-Website.
+  This is a  Personal Portfolio-Website mainly curated for Data Scientists and Data Analysits. 
 
   ## Running the code
+
+  clone  the repo 
 
   Run `npm i` to install the dependencies.
 
