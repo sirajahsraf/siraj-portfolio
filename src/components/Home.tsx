@@ -134,7 +134,7 @@ export function Home({ onNavigate }: HomeProps) {
             <Button
               onClick={() => onNavigate("projects")}
               variant="outline"
-              className="!border-[deepskyblue] !text-[deepskyblue] hover:!bg-[deepskyblue] hover:!text-[#0f1717] font-['Space_Grotesk'] text-sm sm:text-base"
+              className="!border-[deepskyblue] !text-[#26363b] hover:!bg-[deepskyblue] hover:!text-[#0f1717] font-['Space_Grotesk'] text-sm sm:text-base"
             >
               View All Projects{" "}
               <ArrowRight className="ml-2 h-4 w-4" />
