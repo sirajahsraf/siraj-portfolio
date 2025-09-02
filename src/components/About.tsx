@@ -18,9 +18,9 @@ export function About() {
   const education = [
     {
       degree: "Bachelor of Science in Data Science",
-      institution: "University of Technology",
-      year: "2022 - 2026",
-      gpa: "3.8/4.0",
+      institution: "Inspiria Knowledge Campus",
+      year: "2024 - 2028",
+      gpa: "8.9/10",
       relevant: [
         "Machine Learning",
         "Statistical Analysis",
@@ -34,7 +34,7 @@ export function About() {
     {
       title: "Data Science Intern",
       company: "TechCorp Analytics",
-      period: "Summer 2024",
+      period: "Summer 2025",
       description:
         "Developed predictive models for customer behavior analysis, resulting in 15% improvement in retention rates.",
       technologies: ["Python", "TensorFlow", "SQL", "Tableau"],
@@ -50,7 +50,7 @@ export function About() {
   ];
 
   const achievements = [
-    "Dean's List - Fall 2023, Spring 2024",
+    "Dean's List - Fall 2024, Spring 2025",
     "Winner - University Data Science Competition 2023",
     "Published Research Paper on NLP Applications",
     "Google Analytics Certified",
@@ -99,7 +99,7 @@ export function About() {
                 </div>
                 <div className="lg:col-span-2 text-center lg:text-left">
                   <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4 font-['Space_Grotesk']">
-                    Alex Chen
+                    Prabin Thakur
                   </h2>
                   <div className="flex items-center justify-center lg:justify-start text-[#99b2bd] mb-4 font-['Space_Grotesk']">
                     <MapPin className="h-4 w-4 mr-2" />
