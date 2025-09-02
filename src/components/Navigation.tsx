@@ -1,6 +1,6 @@
 import { GitBranch, Sun, Moon, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type Page = "home" | "about" | "projects" | "contact";
 
@@ -17,13 +17,26 @@ export function Navigation({
   const [isMobileMenuOpen, setIsMobileMenuOpen] =
     useState(false);
 
-  const toggleTheme = () => {
-    setIsDark(!isDark);
-    if (isDark) {
-      document.documentElement.classList.remove("dark");
+  // Initialize theme from localStorage or system preference
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      setIsDark(storedTheme === "dark");
+      document.documentElement.classList.toggle("dark", storedTheme === "dark");
     } else {
-      document.documentElement.classList.add("dark");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      setIsDark(prefersDark);
+      document.documentElement.classList.toggle("dark", prefersDark);
     }
+  }, []);
+
+  const toggleTheme = () => {
+    setIsDark((prev) => {
+      const newIsDark = !prev;
+      document.documentElement.classList.toggle("dark", newIsDark);
+      localStorage.setItem("theme", newIsDark ? "dark" : "light");
+      return newIsDark;
+    });
   };
 
   const handleNavigation = (page: Page) => {

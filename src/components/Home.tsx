@@ -64,7 +64,7 @@ export function Home({ onNavigate }: HomeProps) {
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-4 sm:p-8 text-center">
             <div className="max-w-2xl">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white tracking-[-1px] sm:tracking-[-2px] font-['Space_Grotesk']">
-                Prabin Thakur Portfolio
+                Prabin's Portfolio
               </h1>
             </div>
             <div className="max-w-xl">
