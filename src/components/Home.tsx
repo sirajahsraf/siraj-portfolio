@@ -58,7 +58,7 @@ export function Home({ onNavigate }: HomeProps) {
         <div
           className="relative min-h-[320px] sm:min-h-[480px] rounded-lg bg-gradient-to-r from-[#0000001a] to-[#00000066] bg-cover bg-center bg-no-repeat m-2 sm:m-4"
           style={{
-            backgroundImage: "url('src/assets/miracle.jpeg')"
+            backgroundImage: "url('/assets/miracle.jpeg')"
           }}
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-4 sm:p-8 text-center">
