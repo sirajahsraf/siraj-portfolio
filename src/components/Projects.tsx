@@ -25,7 +25,7 @@ export function Projects() {
         "Developed an end-to-end machine learning pipeline to predict customer churn for a telecommunications company. The model achieved 94% accuracy using ensemble methods and helped the company reduce churn by 15%.",
       image:
         "/assets/11.jpeg",
-      tags: [
+      tags: [ 
         "Python",
         "Scikit-learn",
         "XGBoost",
@@ -42,8 +42,7 @@ export function Projects() {
       title: "Sales Analytics Dashboard",
       description:
         "Built an interactive dashboard for sales data analysis with real-time visualizations. Features include KPI tracking, trend analysis, and predictive forecasting capabilities.",
-      image:
-        "https://images.unsplash.com/photo-1748609160056-7b95f30041f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwY2hhcnRzfGVufDF8fHx8MTc1NjcyNDQwM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image:"/assets/22.jpeg",
       tags: [
         "Python",
         "Plotly",
@@ -58,11 +57,10 @@ export function Projects() {
     },
     {
       id: 3,
-      title: "Medical Image Classification",
+      title: "Image Classification",
       description:
         "Implemented a convolutional neural network for classifying chest X-rays to detect pneumonia. Achieved 91% validation accuracy using transfer learning with ResNet50.",
-      image:
-        "https://images.unsplash.com/photo-1695902173528-0b15104c4554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHZpc2lvbiUyMG5ldXJhbCUyMG5ldHdvcmt8ZW58MXx8fHwxNzU2NzQ4OTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image:"/assets/33.jpeg",
       tags: [
         "TensorFlow",
         "Keras",
@@ -81,8 +79,7 @@ export function Projects() {
       title: "Sentiment Analysis API",
       description:
         "Created a REST API for real-time sentiment analysis of social media posts using BERT transformer model. Deployed on AWS with auto-scaling capabilities.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+      image:"/assets/senti.png",
       tags: ["PyTorch", "BERT", "FastAPI", "AWS", "Docker"],
       category: "deep-learning",
       github: "https://github.com/username/sentiment-api",
@@ -94,8 +91,7 @@ export function Projects() {
       title: "Stock Price Predictor",
       description:
         "Developed a time series forecasting model to predict stock prices using LSTM networks. Includes technical indicators and market sentiment analysis.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+      image:"/assets/stock.png",
       tags: [
         "Python",
         "LSTM",
@@ -113,8 +109,7 @@ export function Projects() {
       title: "Data Science Portfolio Website",
       description:
         "Designed and developed this responsive portfolio website to showcase my data science projects and skills. Built with modern web technologies.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+      image:"/assets/portfolio.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
       category: "web-apps",
       github: "https://github.com/username/portfolio",
