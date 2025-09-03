@@ -24,7 +24,7 @@ export function Projects() {
       description:
         "Developed an end-to-end machine learning pipeline to predict customer churn for a telecommunications company. The model achieved 94% accuracy using ensemble methods and helped the company reduce churn by 15%.",
       image:
-        "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBtb2RlbCUyMHZpc3VhbGl6YXRpb258ZW58MXx8fHwxNzU2NzQ4OTc0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "/assets/11.jpeg",
       tags: [
         "Python",
         "Scikit-learn",

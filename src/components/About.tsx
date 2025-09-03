@@ -1,4 +1,3 @@
-import image_af8c89f5aca209c298a0a9a0ed9f03909c72f182 from "figma:asset/af8c89f5aca209c298a0a9a0ed9f03909c72f182.png";
 import {
   Card,
   CardContent,
@@ -89,9 +88,7 @@ export function About() {
                 <div className="flex justify-center lg:justify-start">
                   <div className="rounded-lg overflow-hidden max-w-48 sm:max-w-56 lg:max-w-64">
                     <ImageWithFallback
-                      src={
-                        image_af8c89f5aca209c298a0a9a0ed9f03909c72f182
-                      }
+                      src="/assets/me3.png"
                       alt="Professional headshot"
                       className="w-full h-auto object-contain"
                     />
