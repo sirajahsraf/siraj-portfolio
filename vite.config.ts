@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: process.env.VITE_BASE_PATH || '/',
+    base: "/data-science-portfolio/",
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
