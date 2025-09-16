@@ -103,7 +103,7 @@ export function About() {
                     Siliguri, India
                   </div>
                   <p className="text-sm sm:text-base text-[#99b2bd] leading-6 mb-4 sm:mb-6 font-['Space_Grotesk']">
-                    I am a dedicated data science undergraduate
+                    I am a dedicated data science researcher
                     with a passion for transforming raw data
                     into actionable insights. My expertise spans
                     machine learning, statistical modeling, and

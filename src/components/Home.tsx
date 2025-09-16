@@ -3,6 +3,7 @@ import { Badge } from "./ui/badge";
 import { Card, CardContent } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight, ExternalLink } from "lucide-react";
+import { Video } from "./Video";
 
 interface HomeProps {
   onNavigate: (
@@ -82,6 +83,8 @@ export function Home({ onNavigate }: HomeProps) {
           </div>
         </div>
       </section>
+
+      <Video />
 
       {/* Featured Projects */}
       <section className="container mx-auto px-4 sm:px-6 lg:px-10 py-12 sm:py-20">
