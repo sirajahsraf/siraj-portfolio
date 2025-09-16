@@ -88,7 +88,7 @@ export function About() {
                 <div className="flex justify-center lg:justify-start">
                   <div className="rounded-lg overflow-hidden max-w-48 sm:max-w-56 lg:max-w-64">
                     <ImageWithFallback
-                      src="/assets/me3.png"
+                      src="assets/me3.png"
                       alt="Professional headshot"
                       className="w-full h-auto object-contain"
                     />
