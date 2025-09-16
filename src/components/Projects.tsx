@@ -160,11 +160,11 @@ export function Projects() {
                       ? "default"
                       : "outline"
                   }
-                  size="sm"
+                  size="lg"
                   className={
                     selectedCategory === category.id
-                      ? "!bg-[deepskyblue] !text-[#0f1717] hover:!bg-[deepskyblue]/80 font-['Space_Grotesk'] text-xs sm:text-sm"
-                      : "!border-[#26363b] !text-black hover:!bg-[#26363b] font-['Space_Grotesk'] text-xs sm:text-sm"
+                      ? "!bg-[deepskyblue] !text-white hover:!bg-[deepskyblue]/80 font-['Space_Grotesk'] text-xs sm:text-sm"
+                      : "!border-[#26363b] !text-white hover:!bg-[#26363b] font-['Space_Grotesk'] text-xs sm:text-sm"
                   }
                 >
                   {category.label}
@@ -225,7 +225,7 @@ export function Projects() {
                     <Button
                       size="sm"
                       variant="outline"
-                      className="!border-[#26363b] !text-black hover:!bg-[#26363b] font-['Space_Grotesk'] text-xs sm:text-sm"
+                      className="!border-[#26363b] !text-white hover:!bg-[#26363b] font-['Space_Grotesk'] text-xs sm:text-sm"
                       onClick={() =>
                         window.open(project.github, "_blank")
                       }

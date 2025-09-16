@@ -67,8 +67,8 @@ export function Home({ onNavigate }: HomeProps) {
                 Prabin's Portfolio
               </h1>
             </div>
-            <div className="max-w-xl">
-              <p className="text-sm sm:text-base font-normal leading-relaxed text-white font-['Space_Grotesk']">
+            <div className="max-w-2xl">
+              <p className="text-xl xl:text-base font-normal leading-relaxed text-white font-['Space_Grotesk']">
                 Explore my projects and skills in data science,
                 machine learning, and AI.
               </p>

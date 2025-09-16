@@ -70,7 +70,7 @@ export function Navigation({
               <button
                 key={item.id}
                 onClick={() => onNavigate(item.id)}
-                className={`text-sm font-medium transition-colors hover:text-[#7B61FF] font-['Space_Grotesk'] ${
+                className={`text-2xl font-medium transition-colors hover:text-[#7B61FF] font-['Space_Grotesk'] ${
                   currentPage === item.id
                     ? "text-[#7B61FF]"
                     : "text-white"
