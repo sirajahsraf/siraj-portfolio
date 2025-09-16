@@ -9,14 +9,10 @@ export function Video() {
         </h2>
         <Card className="bg-[#26363b] border-none rounded-lg overflow-hidden">
           <div className="aspect-video">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/LX_4HSqMX5g?si=4ATtcgkw6NgKgVrB"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <video className="w-full h-full" controls>
+            <source src="/assets/prabin.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           </div>
         </Card>
       </div>
