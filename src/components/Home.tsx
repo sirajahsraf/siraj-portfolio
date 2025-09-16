@@ -31,7 +31,7 @@ export function Home({ onNavigate }: HomeProps) {
       title: "Predictive Customer Churn Model",
       description:
         "Developed a machine learning model to predict customer churn with 94% accuracy using ensemble methods and feature engineering.",
-      image:"/assets/11.jpeg",
+      image:"assets/11.jpeg",
       tags: ["Python", "Scikit-learn", "Pandas", "XGBoost"],
     },
     {
@@ -39,7 +39,7 @@ export function Home({ onNavigate }: HomeProps) {
       title: "Sales Data Analysis Dashboard",
       description:
         "Built an interactive dashboard analyzing sales trends and KPIs, providing actionable insights for business decisions.",
-      image:"/assets/22.jpeg",
+      image:"assets/22.jpeg",
       tags: ["Python", "Plotly", "Streamlit", "SQL"],
     },
     {
@@ -47,7 +47,7 @@ export function Home({ onNavigate }: HomeProps) {
       title: "Image Classification CNN",
       description:
         "Implemented a convolutional neural network for medical image classification achieving 91% validation accuracy.",
-      image: "/assets/33.jpeg",
+      image: "assets/33.jpeg",
       tags: ["TensorFlow", "Keras", "Computer Vision", "CNN"],
     },
   ];
@@ -59,7 +59,7 @@ export function Home({ onNavigate }: HomeProps) {
         <div
           className="relative min-h-[320px] sm:min-h-[480px] rounded-lg bg-gradient-to-r from-[#0000001a] to-[#00000066] bg-cover bg-center bg-no-repeat m-2 sm:m-4"
           style={{
-            backgroundImage: "url('/assets/miracle.jpeg')"
+            backgroundImage: "url('assets/miracle.jpeg')"
           }}
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-4 sm:p-8 text-center">

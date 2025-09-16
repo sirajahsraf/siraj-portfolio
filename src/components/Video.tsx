@@ -10,7 +10,7 @@ export function Video() {
         <Card className="bg-[#26363b] border-none rounded-lg overflow-hidden">
           <div className="aspect-video">
             <video className="w-full h-full" controls>
-            <source src="/assets/prabin.mp4" type="video/mp4" />
+            <source src="assets/prabin.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           </div>
