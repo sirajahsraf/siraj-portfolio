@@ -88,7 +88,7 @@ export function About() {
                 <div className="flex justify-center lg:justify-start">
                   <div className="rounded-lg overflow-hidden max-w-48 sm:max-w-56 lg:max-w-64">
                     <ImageWithFallback
-                      src="assets/me3.png"
+                      src="assets/siraj.png"
                       alt="Professional headshot"
                       className="w-full h-auto object-contain"
                     />
@@ -96,7 +96,7 @@ export function About() {
                 </div>
                 <div className="lg:col-span-2 text-center lg:text-left">
                   <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4 font-['Space_Grotesk']">
-                    Prabin Thakur
+                    Siraj Ashraf
                   </h2>
                   <div className="flex items-center justify-center lg:justify-start text-[#99b2bd] mb-4 font-['Space_Grotesk']">
                     <MapPin className="h-4 w-4 mr-2" />
