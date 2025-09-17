@@ -57,7 +57,7 @@ export function Navigation({
         <div className="flex items-center gap-4">
           <h1 className="text-base sm:text-lg font-bold text-white font-['Space_Grotesk']">
             <span className="hidden sm:inline">
-              Prabin Thakur{" "}
+              Siraj Ashraf {" "}
             </span>
             <span className="sm:hidden">Portfolio</span>
           </h1>
