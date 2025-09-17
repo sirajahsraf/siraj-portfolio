@@ -57,14 +57,14 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "prabinthakur0101@gmail.com",
-      link: "mailto:prabinthakur0101@gmail.com",
+      value: "sirajashraf707@gmail.com",
+      link: "mailto:sirajashraf707@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 8617559896",
-      link: "tel:+918617559896",
+      value: "+91 8918192282",
+      link: "tel:+918918192282",
     },
     {
       icon: MapPin,
@@ -78,7 +78,7 @@ export function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      url: "https://github.com/renovamen1",
+      url: "https://github.com/sirajashraf",
       color: "hover:text-gray-400",
     },
     {
@@ -90,7 +90,7 @@ export function Contact() {
     {
       icon: Twitter,
       label: "Twitter",
-      url: "https://twitter.com/prab1n_",
+      url: "https://twitter.com/",
       color: "hover:text-blue-400",
     },
   ];
